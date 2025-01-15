@@ -311,6 +311,9 @@ body {
     background: url('images/bg.png') no-repeat left top fixed;
     background-size: cover;
   }
+  .intro{
+    margin-top: 200px;
+  }
   .banner nav ul {
     flex-direction: column;
     align-items: flex-start;
