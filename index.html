@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project WEA</title>
+  <!-- CSSファイルを読み込む -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="banner">
+    <nav>
+      <ul>
+        <li><a href="#top">TOP</a></li>
+        <li><a href="#overview">プロジェクト概要</a></li>
+        <li><a href="#systems">開発システム</a></li>
+        <li><a href="#casts">キャスト紹介</a></li>
+        <li><a href="#safety">安全対策</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="content" id="top">
+    <section class="intro">
+      <div class="intro-inner">
+        <h1>AIと生み出す、新しい感動のかたち</h1>
+        <p>
+          AI Vtuberや対話ソフトウェアで、驚きと感動を届けます。人とAIが共に物語を紡ぎ、新しいエンターテインメントの未来を創ります。
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <section class="overview">
+    <div class="overview-inner" id="overview">
+      <h2>プロジェクト概要</h2>
+      <h3 class="overview-title">はじめに</h3>
+      <p>
+        生成AIの進化により、未来は予測困難になっています。「AI依存」や「思考力の低下」などの課題がある一方、新しい体験と価値観を提供する可能性も秘めています。私達プロジェクトウィアは、AIと共創し、新たなエンターテインメントを模索しています。
+      </p>
+      <h3 class="overview-title">開発のフィールド</h3>
+      <p>
+        プロジェクトウィアは、LLMを活用したAIコンテンツを開発しています。主な例としてAI Vtuberシステム「PersonaLink」や、対話型デジタルサイネージ「With you」があります。これらは「人との対話を通じて心を動かす」ことを目指しています。
+      </p>
+      <br>
+      <p>
+        「PersonaLink」は、対話を通じて学び、個別化されたエンターテインメントを提供するAI Vtuberシステムです。
+      </p>
+      <br>
+      <p>
+        「With you」は、公共空間で利用可能なデジタルサイネージで、リアルタイムにユーザーのニーズに応じた情報を提供します。
+      </p>
+      <br>
+      <p>
+        プロジェクトウィアは、人とAIが共に成長する未来を目指しています。
+      </p>
+    </div>
+  </section>
+
+  <section class="systems">
+    <div class="systems-inner" id="systems">
+      <h2>開発システム</h2>
+      <div class="system-item">
+        <img src="images/persona-link.png" alt="PersonaLink">
+        <div class="description">
+          <h3 class="system-title">PersonaLink</h3>
+          <p>
+            自発的に話題を提起したり、コメントを読んで視聴者とコミュニケーションを行うAI Vtuberシステムです。
+          </p>
+          <h4>感情に応じた表現の変化</h4>
+          <p>
+            単なるLLMのレスポンス再生ではなく、配信中のキャスト（AI）の感情に応じて声のトーンやタイプを変化させることで、より人間らしい体験を視聴者に提供します。この技術により、自然で感情豊かな表現が可能になります。
+          </p>
+          <h4>視聴者との親密なコミュニケーション</h4>
+          <p>
+            視聴者のコメントから好みや流行中のコンテンツを学習し、それらのデータを「長期記憶」に該当するデータベースに保存します。保存された情報は必要に応じて活用され、視聴者一人ひとりに寄り添った親密なコミュニケーションを実現します。
+          </p>
+        </div>
+      </div>
+      <div class="system-item">
+        <img src="images/with-you.jpg" alt="With You">
+        <div class="description">
+          <h3 class="system-title">With you</h3>
+          <p>
+            リアルタイム性を重視した、AIキャラクターとの対話システムです。迅速かつ自然な応答により、これまでにない対話体験を提供します。
+          </p>
+          <h4>リアルタイム処理の最適化</h4>
+          <p>
+            音声入力からLLMへのリクエスト、音声合成、再生までの処理を徹底的に最適化することで、ほぼリアルタイムでの対話を実現しています。たとえば、音声合成では、LLMからのレスポンス全文を一度に合成するのではなく、句読点で分割しながら逐次的に合成することで、応答のスピードを向上させています。
+          </p>
+          <h4>柔軟なカスタマイズ性</h4>
+          <p>
+            キャスト（AIキャラクター）の外見は、ソフトウェア起動時にファイルから動的に読み込む仕組みを採用。これにより、ノーコードで簡単に変更や更新が可能です。また、キャストの性格や設定も実行中に容易に書き換えることができ、ユーザーのニーズに応じた柔軟なカスタマイズを実現します。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="casts" id="casts">
+    <div class="casts-inner">
+      <h2>キャスト紹介</h2>
+      <p>
+        「キャスト」とは、AIの設定や性格、外見モデルなどを統合し、一つの人格として扱う単位を指します。勝手に決めました。
+      </p>
+      <div class="cast-item">
+        <img src="images/tachie.png" alt="キャラクター名">
+        <div class="cast-info">
+          <h3 class="cast-name">ウィア 1.0</h3>
+          <p class="cast-setting">
+            プロジェクトウィアで初めて生まれたキャスト。最近ちょっとアップデートして1.0になりました。<br>
+            ・性格: 好奇心いっぱい<br>
+            ・得意なこと: コミュニケーション<br><br>
+            「いつでも会えるよ、私はここで待ってるね！」
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="safety" id="safety">
+    <div class="safety-inner">
+      <h2>安全対策</h2>
+      <p>
+        AIとともに素晴らしい未来を築くために、プロジェクトウィアでは安全性を最優先に考えた取り組みを行っています。以下のような安全対策を実装し、安心してAIと関わることのできるソフトウェアの開発を目指しています。
+      </p>
+      <ul style="text-align:left; max-width: 700px; margin: 20px auto;">
+        <li>リアルタイム監視コンソールの開発と整備</li>
+        <li>悪意のある入力に対して回答を拒否するフィルタリングシステム</li>
+        <li>伏せ字やワードブロックの突破を防ぐプロンプト制御</li>
+        <li>自己改変型システムにおける変更不可領域の厳密な設定</li>
+      </ul>
+      <p>
+        これらの対策により、プロンプトインジェクションや悪意のある入力、不適切な生成を防ぎ、信頼性の高いAIとの共創を実現します。
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 みゃのさん/プロジェクトウィア
+  </footer>
+
+  <!-- JavaScriptファイルを読み込む -->
+  <script src="script.js"></script>
+</body>
+</html>
